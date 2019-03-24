@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-import numpy as np
+
 import cv2
 from matplotlib import pyplot as plt
 
@@ -21,7 +21,7 @@ def showImgbyMatplot(img):
     plt.show()
 
 if __name__ == "__main__":
-    img = img = cv2.imread('data/demo1.jpg', 1)
+    img = cv2.imread('data/trex.png', 1)
 #    readImg()
 #    saveImg(img)
     showImgbyMatplot(img)
